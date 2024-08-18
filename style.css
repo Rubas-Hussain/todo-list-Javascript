@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainCont {
+    background-color: white;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading {
+    font-size: 32px;
+    font-weight: 600;
+    color: #1e1e1e;
+    margin: 40px 0px;
+}
+
+.inputActionCont input {
+    width: 300px;
+    height: 30px;
+    border-radius: 6px;
+    border: 1px solid grey;
+    padding-left: 10px;
+
+}
+
+.inputActionCont button {
+    width: 50px;
+    height: 30px;
+    border-radius: 6px;
+    background-color: aliceblue;
+    border: none;
+    color: #1e1e1e;
+    font-weight: 700;
+}
+
+.inputActionCont button:hover {
+    cursor: pointer;
+    background-color: rgba(9, 41, 70, 0.397);
+    color: white;
+
+}
+
+.listBigCont li {
+    width: 350px;
+    list-style: none;
+    /* background-color: olive;  */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+.listBigCont li p{
+    font-size: 18px;
+    color:#1e1e1e;
+}
+
+.listBigCont button {
+    /* width: 50px;
+    height: 30px; */
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 12px 18px;
+    margin-left: 8px;
+    color: white;
+}
+
+.listBigCont button:hover {
+    cursor: pointer;
+    color: #1e1e1e;
+}
+
+.editBtn {
+    background-color: rgb(67, 160, 67);
+}
+
+.deleteBtn {
+    background-color: rgb(146, 20, 20);
+}
